@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+} 
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header, .dropdown {
+    background-color: rgb(41, 46, 53);
+}
+
+.menu {
+    background: none;
+    border: none;
+    color: white;
+    font-size: x-large;
+    padding: 50px;
+}
+
+.menu:hover, li:hover {
+    cursor: pointer;
+    color: rgb(200, 178, 230);
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    color: white;
+    margin-left: 20px;
+    padding: 30px;
+    gap: 20px;
+}
+
+.hidden {
+    display: none;
+}
